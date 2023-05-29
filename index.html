@@ -1,0 +1,114 @@
+<!-- Una pagina con ( HTML, CSS, JS ) che corrisponda a un vostro portfolio con almeno 3 sezioni e un link al vostro linkedin -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Home</title>
+  </head>
+  <body>
+    <div class="big">
+      <header>
+        <nav>
+          <div class="image">
+            <img src="immagine.jpeg" />
+          </div>
+          <a href="">Home</a>
+          <a href="about.html">About</a>
+        </nav>
+      </header>
+      <main>
+        
+        <div>
+          <div class="desc hide" id="descN">
+            <h3>Next JS</h3>
+            <h5>
+              Next.js is a framework for building web applications. With
+              Next.js, you can build user interfaces using React components.
+              Then, Next.js provides additional structure, features, and
+              optimizations for your application. Under the hood, Next.js also
+              abstracts and automatically configures tooling for you, like
+              bundling, compiling, and more. This allows you to focus on
+              building your application instead of spending time setting up
+              tooling. Whether you're an individual developer or part of a
+              larger team, Next.js can help you build interactive, dynamic, and
+              fast web applications.
+            </h5>
+          </div>
+          <div class="desc hide" id="descV">
+            <h3>Vue JS</h3>
+            <h5>
+                Vue is a framework and ecosystem that covers most of the common features 
+                needed in frontend development. But the web is extremely diverse - the things 
+                we build on the web may vary drastically in form and scale. With that in mind, 
+                Vue is designed to be flexible and incrementally adoptable.
+            </h5>
+          </div>
+          <div class="desc hide" id="descL">
+            <h3>Laravel</h3>
+            <h5>
+                Laravel is a web application framework with expressive, elegant syntax. 
+                A web framework provides a structure and starting point for creating your application
+                , allowing you to focus on creating something amazing while we sweat the details.
+                Laravel strives to provide an amazing developer experience while providing powerful 
+                features such as thorough dependency injection, an expressive database abstraction layer,
+                 queues and scheduled jobs, unit and integration testing, and more.
+                Whether you are new to PHP web frameworks or have years of experience, Laravel is a framework 
+                that can grow with you. We'll help you take your first steps as a web developer or give you a 
+                boost as you take your expertise to the next level.
+            </h5>
+          </div>
+          <div id="boxMain">
+            <div class="home">
+              <h1>Working Progress</h1>
+              <br />
+              <h4>Qui di seguito è elencato ciò che sto imparando:</h4>
+            </div>
+            <div class="container">
+              <button class="box" onclick="ShowN()" id="Next">
+                <img class="imgbox" src="Nextjs-logo.svg" alt="Next logo" />
+              </button>
+              <button class="box" onclick="ShowV()" id="Vue">
+                <img class="imgbox" src="vuejs-icon.svg" alt="Next logo" />
+              </button>
+              <button class="box" onclick="ShowL()" id="Laravel">
+                <img class="imgbox" src="laravel-2.svg" alt="Next logo" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <div class="boxFooter">
+          <ul>
+            <li>
+              <h5>@Copyright 2023 - Michele Pinto</h5>
+            </li>
+          </ul>
+        </div>
+        <div class="boxFooter"></div>
+        <div class="boxFooter"></div>
+        <div class="boxFooter">
+          <ul>
+            <li>I miei contatti:</li>
+
+            <li>
+              <a href="https://www.linkedin.com/in/michele-pinto-b90aaa26a/"
+                ><img src="linkedin.svg"
+              /></a>
+            </li>
+            <li>
+              <a href="https://github.com/Michele97"
+                ><img src="github.svg"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
