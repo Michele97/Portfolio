@@ -32,13 +32,10 @@ nav a{
 
 }
 
-/* main{
-     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+main{
+     
     margin-top: 150px; 
-} */
+}
 
 .content{
     display: flex;
@@ -113,9 +110,13 @@ h3{
 }
 
 #boxMain{
-    position: absolute;
+    /* position: absolute;
     top:200px;
-    left:100px;
+    left:100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     z-index: 9998;
 }
 .boxFooter{
