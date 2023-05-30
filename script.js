@@ -29,7 +29,7 @@
 
  window.onclick = function(event) {
     
-    if (!event.target.matches('.imgbox')) {
+    if (!(event.target.matches('.imgbox'))  ) {
 
       var dropdowns = document.getElementsByClassName("desc");
       var i;
