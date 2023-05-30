@@ -45,7 +45,7 @@ nav a{
 
 .image{
     width: 90px;
-    height: 90px;
+    height: 80px;
     margin-right: 25px;
     /* position: absolute;
     left:30px; */
@@ -100,8 +100,8 @@ h3{
 
 .image img{
     width: 90px;
-    height: 90px;
-    border-radius: 50%;
+    /* height: 80px; */
+    /* border-radius: 50%; */
 }
 
 
