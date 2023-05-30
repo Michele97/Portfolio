@@ -15,7 +15,7 @@ nav{
     width: 100vw;
     height: 100px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-direction: row;
 
@@ -47,8 +47,9 @@ nav a{
     width: 90px;
     height: 90px;
     margin-right: 25px;
-    position: absolute;
-    left:30px;
+    /* position: absolute;
+    left:30px; */
+    margin-left:35px;
 }
 .show{
     display: flex;
@@ -77,7 +78,7 @@ h3{
     flex-direction: column;
     position: fixed;
     top:20vh;
-    left:40vw;
+    /* left:40vw; */
     text-align : center;
     border : 3px solid black;
     border-radius: 15px;
@@ -123,10 +124,7 @@ h3{
     padding:15px;
     
 }
-.boxFooter:first-child, .boxFooter:last-child{
-    border-right: 1px solid white;
-    border-left: 1px solid white;
-}
+
 
 ul{
     list-style-type: none;
@@ -147,7 +145,7 @@ li{
     align-items: center;
     background-color: aliceblue;
     border-radius: 25px;
-    margin-right: 20px;
+    margin: 20px;
     cursor: pointer;
 }
 
@@ -181,12 +179,3 @@ footer{
     z-index: 9998;
 }
 
-
-@media only screen and (max-width:400px) {
-
-    .desc{
-        top:105px;
-        left: 30px;
-    }
-
-}
