@@ -106,14 +106,12 @@ h3{
 }
 
 #boxMain{
-    /* position: absolute;
-    top:200px;
-    left:100px; */
+   
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    z-index: 9998;
+    z-index: 9997;
 }
 .boxFooter{
     padding:15px;
@@ -172,6 +170,7 @@ footer{
     bottom: 0;
     padding : 3px;
     background-color: black;
+    z-index: 9998;
 }
 
 
