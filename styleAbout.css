@@ -110,6 +110,7 @@ li{
     }
     
     main{  
+            margin-top: 50px;
             flex-direction: column;
         }
 }
