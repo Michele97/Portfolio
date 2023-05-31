@@ -189,5 +189,6 @@ footer{
 @media only screen and (max-width:400px) {
     .boxhero{
         padding:25px 0 25px 0;
+        margin-bottom:50px;
     }
 }
