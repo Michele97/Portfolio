@@ -10,14 +10,14 @@ body{
 }
 
 .big{
-    width: 100vw;
+    width: 100dvw;
     height: auto;
     
 }
 
 
 nav{
-    width: 100vw;
+    width: 100dvw;
     height: 50px;
     display: flex;
     justify-content: space-between;
@@ -39,7 +39,7 @@ nav a{
 }
 
 .boxhero{
-    width: 100vw;
+    width: 100dvw;
     height: auto;
     padding: 20px 0 20px 0;
 }

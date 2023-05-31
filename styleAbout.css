@@ -12,7 +12,7 @@ body{
 }
 
 nav{
-    width: 100vw;
+    width: 100dvw;
     height: 50px;
     display: flex;
     justify-content: space-between;
@@ -36,9 +36,9 @@ main{
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 100vw;
+    width: 100dvw;
     height: auto;
-    margin-top: 150px;
+    margin-top: 100px;
 }
 
 .image{
@@ -58,8 +58,7 @@ main{
     width: 90px;
     height: 80px;
     margin-right: 25px;
-    /* position: absolute;
-    left:30px; */
+  
     margin-left:35px;
 }
 
@@ -76,7 +75,7 @@ main{
 }
 
 footer{
-    width: 100vw;
+    width: 100dvw;
     height: auto;
     display: flex;
     justify-content: center;
@@ -110,8 +109,7 @@ li{
         margin-bottom: 5px;
     }
     
-    main{
-            
+    main{  
             flex-direction: column;
         }
 }
