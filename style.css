@@ -9,7 +9,7 @@ body{
 }
 .big{
     width: 100vw;
-    height: 100vh;
+    height: auto;
     
 }
 
@@ -195,7 +195,7 @@ footer{
     
     }
     main{
-        margin-bottom: 200px;
+        margin-bottom: 400px;
         margin-top: 25px;
     }
 }
