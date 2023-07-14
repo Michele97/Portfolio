@@ -194,15 +194,7 @@ footer{
     background-color: black;
     z-index: 9998;
 }
-.close{
-    width: 10px;
-    height: 20px;
-    
-}
-.close h4{
-    color:red;
-    
-}
+
 
 @media only screen and (max-width:390px) {
     .boxhero{
