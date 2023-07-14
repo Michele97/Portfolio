@@ -34,7 +34,7 @@
 
  window.onclick = function(event) {
     
-    if ((event.target.matches('.close'))  ) {
+    if ((event.target.matches('.desc'))  ) {
 
       var dropdowns = document.getElementsByClassName("desc");
       var i;
