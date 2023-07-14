@@ -40,7 +40,7 @@
 
  window.onclick = function(event) {
     
-    if ((event.target.matches('.desc'))  ) {
+    if (event.target.matches('.boxMain') || event.target.matches('.content')  ) {
 
       var dropdowns = document.getElementsByClassName("desc");
       var i;
