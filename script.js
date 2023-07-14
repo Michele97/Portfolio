@@ -3,6 +3,8 @@
         document.getElementById("descN").classList.add("show");
         document.getElementById("boxMain").classList.add("opacity");
         document.getElementById("boxMain").classList.add("blur");
+        document.getElementById("navbar").classList.add("opacity");
+        document.getElementById("navbar").classList.add("blur");
         document.getElementById("Vue").disable=true;
         document.getElementById("Next").disable=true;
         document.getElementById("Laravel").disable=true;
@@ -14,6 +16,8 @@
         document.getElementById("descV").classList.add("show");
         document.getElementById("boxMain").classList.add("opacity");
         document.getElementById("boxMain").classList.add("blur");
+        document.getElementById("navbar").classList.add("opacity");
+        document.getElementById("navbar").classList.add("blur");
         document.getElementById("Vue").disable=true;
         document.getElementById("Next").disable=true;
         document.getElementById("Laravel").disable=true;
@@ -25,6 +29,8 @@
         document.getElementById("descL").classList.add("show");
         document.getElementById("boxMain").classList.add("opacity");
         document.getElementById("boxMain").classList.add("blur");
+        document.getElementById("navbar").classList.add("opacity");
+        document.getElementById("navbar").classList.add("blur");
         document.getElementById("Vue").disable=true;
         document.getElementById("Next").disable=true;
         document.getElementById("Laravel").disable=true;
@@ -47,6 +53,8 @@
           openDropdown.classList.add('hide');
           document.getElementById("boxMain").classList.remove("opacity");
           document.getElementById("boxMain").classList.remove("blur");
+          document.getElementById("navbar").classList.remove("opacity");
+          document.getElementById("navbar").classList.remove("blur");
 
         }
       }
