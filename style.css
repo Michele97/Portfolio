@@ -84,7 +84,7 @@ h3{
     
     width: 300px;
     height: 400px;
-
+   
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -193,6 +193,15 @@ footer{
     padding : 3px;
     background-color: black;
     z-index: 9998;
+}
+.close{
+    width: 10px;
+    height: 20px;
+    
+}
+.close h4{
+    color:red;
+    
 }
 
 @media only screen and (max-width:390px) {
